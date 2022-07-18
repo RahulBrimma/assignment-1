@@ -9,7 +9,7 @@ void main()
     int fibonacci1,fibonacci2,fibonacci3=0,a;
     fibonacci1=-1;
     fibonacci2=1;
-    while(f3<=4000000)
+    while(fibonacci3<=4000000)
     {
         fibonacci1=fibonacci2;
         fibonacci2=fibonacci3;
