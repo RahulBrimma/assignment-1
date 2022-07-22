@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+long n=100,x=0,y=0;
+int i;
+for(i=1;i<=n;i++)
+x=x+i;
+x=x*x;
+for(i=1;i<=n;i++)
+y=y+(i*i);
+printf(" Difference between the sum of the squares of the first one hundred natural numbers and the square of the sum = %ld\n",(x-y));
+}
