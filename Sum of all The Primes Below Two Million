@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<math.h>
+int isprime(long);
+int main()
+{
+long i;
+double sum=0;
+for (i = 2; i < 2000000; i++)
+{
+if(isprime(i))
+sum+=i;
+}
+printf("sum of prime number is : %f\n",sum);
+}
+int isprime(long num)
+{
+long i;
+for(i=2;i<=sqrt(num);i++)
+if(num%i==0)
+return 0;
+return 1;
+}
